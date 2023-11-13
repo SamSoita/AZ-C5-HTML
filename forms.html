@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.8">
+        <title> Registration Form</title>
+    </head>
+
+    <body>
+        
+            <p><h2>Please provide the information as required</h2></p>
+            <form>
+                <fieldset>
+                    <label for="ftname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" required> <br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" required><br>
+                <label for="address">Email Address:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="Pnumber">Phone Number</label><br>
+                <input type="number" id="number" name="number" required> <br>
+                <label for="DoB">Date of Birth:</label><br>
+                <input type="date" id="DoB" name="DoB"><br>
+                <label for="Country">Country</label><br>
+                <select id="Country" size="5">
+                    <option>Select Country</option>
+                    <option selected>Kenya</option>
+                    <option>Uganda</option>
+                    <option>Nigeria</option>
+                    <option>Ghana</option>
+                    <option>Rwanda</option>
+                    <option>Somalia</option>
+                    <Option>Sudan</Option>
+                    <Option>Burundi</Option>
+                </select>
+
+                </fieldset>    
+            </form>
+            <form>
+                <h2>
+                    Gender selection
+                </h2>
+                <fieldset>
+                    
+                    <p>Please select your gender:</p>
+                    <input type="radio" id="Male" name="gender" value="gender">
+                    <label for="gender">Male</label><br>
+                    <input type="radio" id="Female" name="gender" value="gender">
+                    <label for="gender">Female</label><br>
+                    <input type="radio" id="selfidentifying" name="gender" value="gender">
+                    <label for="gender">Self Identifying</label> <br>
+                
+                </fieldset>
+                <h2>Hobies</h2>
+                <fieldset>
+                    
+
+                    <p> Please select your hobies</p>
+                    <input type="checkbox" name="hobbies" value="hobbies">
+                    <label for="hobies">Reading</label><br>
+                    <input type="checkbox" name="hobbies" value="hobies">
+                    <label for="hobbies">Cycling</label><br>
+                    <input type="checkbox" name="hobbies" value="hobbies">
+                    <label for="hobbies">Travel</label><br>
+                    <input type="checkbox" name="hobbies" name="hobbies" value="hobbies">
+                    <label for="hobbies">Music</label><br>
+    
+                </fieldset>
+    
+               
+        
+            </form><br>
+            <form>
+                <Fieldset>
+                    <h2>Additional infromation</h2>
+                    <label for="Message">Message</label>
+    
+                    <textarea  placeholder="Enter Message here" rows="5" cols="70" name="Message"></textarea><br>
+                    <button type="submit">Submit</button> 
+                </Fieldset>
+               
+            </form>
+
+        </body>
+
+    </head>
+</html>

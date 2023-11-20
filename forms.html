@@ -7,20 +7,19 @@
     </head>
 
     <body>
-        
-            <p><h2>Please provide the information as required</h2></p>
-            <form>
-                <fieldset>
-                    <label for="ftname">First Name:</label><br>
-                <input type="text" id="fname" name="fname" required> <br>
+        <h2>Please provide the information as required</h2>
+        <form>
+             <fieldset>
+                <label for="firstname">First Name:</label><br>
+                <input type="text" id="firstname" name="firstname" required>
                 <label for="lname">Last Name:</label><br>
                 <input type="text" id="lname" name="lname" required><br>
                 <label for="age">Age:</label><br>
                 <input type="number" id="age" name="age" required><br>
-                <label for="address">Email Address:</label><br>
-                <input type="email" id="email" name="email"><br>
-                <label for="Pnumber">Phone Number</label><br>
-                <input type="number" id="number" name="number" required> <br>
+                <label for="emailaddress">Email Address:</label><br>
+                <input type="email" id="emailaddress" name="emailaddress"><br>
+                <label for="Phonenumber">Phone Number</label><br>
+                <input type="number" id="Phonenumber" name="Phonenumber" required> <br>
                 <label for="DoB">Date of Birth:</label><br>
                 <input type="date" id="DoB" name="DoB"><br>
                 <label for="Country">Country</label><br>
@@ -47,7 +46,7 @@
                     <p>Please select your gender:</p>
                     <input type="radio" id="Male" name="gender" value="gender">
                     <label for="gender">Male</label><br>
-                    <input type="radio" id="Female" name="gender" value="gender">
+                    <input type="radio" id="gender" name="gender" value="gender">
                     <label for="gender">Female</label><br>
                     <input type="radio" id="selfidentifying" name="gender" value="gender">
                     <label for="gender">Self Identifying</label> <br>
@@ -58,14 +57,14 @@
                     
 
                     <p> Please select your hobies</p>
-                    <input type="checkbox" name="hobbies" value="hobbies">
-                    <label for="hobies">Reading</label><br>
-                    <input type="checkbox" name="hobbies" value="hobies">
-                    <label for="hobbies">Cycling</label><br>
-                    <input type="checkbox" name="hobbies" value="hobbies">
-                    <label for="hobbies">Travel</label><br>
-                    <input type="checkbox" name="hobbies" name="hobbies" value="hobbies">
-                    <label for="hobbies">Music</label><br>
+                    <input type="checkbox" name="hobbies" value="reading">
+                    <label>Reading</label>
+                    <input type="checkbox" name="hobbies" value="Cycling">
+                    <label>Cycling</label><br>
+                    <input type="checkbox" name="hobbies" value="Travel">
+                    <label>Travel</label><br>
+                    <input type="checkbox" name="hobbies" value="Music">
+                    <label>Music</label><br>
     
                 </fieldset>
     
@@ -74,10 +73,10 @@
             </form><br>
             <form>
                 <Fieldset>
-                    <h2>Additional infromation</h2>
-                    <label for="Message">Message</label>
+                    <h2>Additional information</h2>
+                    <label for="message">Message</label>
     
-                    <textarea  placeholder="Enter Message here" rows="5" cols="70" name="Message"></textarea><br>
+                    <textarea placeholder="Enter Message here" rows="5" cols="70" name="Message" id="message"></textarea><br>
                     <button type="submit">Submit</button> 
                 </Fieldset>
                
@@ -85,5 +84,5 @@
 
         </body>
 
-    </head>
+    
 </html>
